@@ -1,0 +1,143 @@
+body{
+  display: grid;
+  font-family: sans-serif;
+  margin: 0%;
+  height: auto;
+  background-color: #6C655D;
+  padding-left: 280px;
+  padding-right: 280px;
+  
+}
+
+h1{
+  display: grid;
+  margin-bottom: 40px;
+  font-size: 100px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.title{
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+ 
+.title span:nth-child(1){
+  color: #010101;
+}
+.title span:nth-child(2){
+  color: #662F32;
+}
+.title span:nth-child(3){
+  color: #010101;
+}
+.img{
+  width: 960px;
+  height: 400px;
+}
+
+#header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: white;
+ 
+}
+
+section{
+  display: grid;
+  grid-template-columns: 288px 288px 288px;
+  gap: 15PX;
+  background-color: white;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.h2{
+  display: grid;
+  background-color: rgb(102, 47, 50);
+  margin: 0%;
+  color: aliceblue;
+  justify-content: center;
+
+}
+
+.pro{
+  display: grid;
+  background-color: white;
+  
+}
+.plus{
+  display: grid;
+  justify-self: end;  
+}
+
+.product{
+  background-color: #645955;
+  color: #010101;
+  display: grid;
+}
+
+.p{
+  display: grid;
+  margin-bottom: 0%;
+}
+
+header{
+  background-color: white;
+}
+footer{
+  background-color: white;
+  
+}
+.colour{
+  color: #ff0000;
+}
+
+.button{
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration-line: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0cap;
+  background-color: white;
+}
+
+.button:hover{
+  background-color: #662F32;
+}
+.read{
+  padding-bottom: 20px;
+  color: white;
+  background-color: #564D48;
+  cursor: pointer;
+}
+footer{
+  margin: 0%;
+}
+
+.reseau{
+  display: flex;
+ padding-left: 20px;
+ padding-bottom:20px ;
+ padding-top: 20px;
+ margin: 0%;
+
+}
+.fa-facebook{
+  padding-left: 77%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.fa-square-twitter{
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.fa-google-plus{
+  cursor: pointer;
+}
